@@ -92,7 +92,7 @@ volumes:
 Crie também um `Dockerfile` na raiz do projeto:
 
 ```dockerfile
-FROM node:14
+FROM node:22-slim
 WORKDIR /app
 COPY package*.json ./
 RUN npm install
